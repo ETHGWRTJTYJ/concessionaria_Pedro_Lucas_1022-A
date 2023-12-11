@@ -1,0 +1,12 @@
+POST http://localhost:3333/conces
+Content-Type: application/json
+
+{
+    "marca": "marca",
+    "modelo": "modelo",
+    "preco": "1000",
+}
+
+###
+
+GET http://localhost:3333/conces
