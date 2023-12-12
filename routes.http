@@ -4,9 +4,23 @@ Content-Type: application/json
 {
     "marca": "marca",
     "modelo": "modelo",
-    "preco": "1000",
+    "preco": 1000
 }
 
 ###
 
 GET http://localhost:3333/conces
+
+###
+
+PUT http://localhost:3333/conces/id do video
+content-Type: application/json
+
+{
+    "marca": "marca 02",
+    "modelo": "modelo 02",
+    "preco": 100000
+}
+
+
+DELETE http://localhost:3333/conces/id da moto
